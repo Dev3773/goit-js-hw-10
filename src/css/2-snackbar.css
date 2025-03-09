@@ -1,0 +1,12 @@
+body {
+  background-color: #F5F5F5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link-snackbar {
+  display: inline-block;
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+

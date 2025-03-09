@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-    <load src="./partials/footer.html" />
+<body>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <header class="header">
+    <div class="container header__container">
+      <p class="header__text">HomeWork from Stepaniuk Sergiy</p>
+      <ul class="header__list">
+        <li class="header__item"><a href="./1-timer.html" class="link__gallery">Timer</a></li>
+        <li class="header__item"><a href="./2-snackbar.html" class="link__form">Snackbar</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero">
+      <div class="container hero__container">
+        <img class="hero__image" src="./img/vite-logo.png" alt="Logo">
+      </div>
+    </section>
+  </main>
+
+</body>
+
 </html>
